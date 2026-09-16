@@ -1,0 +1,29 @@
+export default function Home() {
+  return (
+    <main>
+      <header className="header">
+        <div className="brand"><b>ACADEMIA CAA</b><span>Formação para Transformar Nações</span></div>
+        <nav><a href="#cursos">Cursos</a><a href="#academia">A Academia</a><a href="#aluno">Área do aluno</a></nav>
+      </header>
+      <section className="hero">
+        <p className="gold">CONHECIMENTO • PROPÓSITO • TRANSFORMAÇÃO</p>
+        <h1>Formação que prepara você para transformar.</h1>
+        <p>Uma plataforma independente de cursos e desenvolvimento, criada para oferecer uma experiência completa de aprendizagem.</p>
+        <a className="button" href="#cursos">Conheça nossos cursos</a>
+      </section>
+      <section className="section" id="cursos">
+        <p className="gold">INSCRIÇÕES ABERTAS</p>
+        <h2>Curso de Formação em Capelania Cristã</h2>
+        <p>Formação para atuação com escuta, cuidado, ética e presença em hospitais, comunidades, escolas, instituições e outros contextos.</p>
+        <div className="course">
+          <div><small>PRÓXIMA TURMA</small><h3>Capelania Cristã</h3><p>24 de outubro de 2026 • 17h Brasília</p><p>Ao vivo pelo Zoom • Certificação</p></div>
+          <div className="price"><small>Investimento</small><strong>R$ 200,00</strong><a className="button" href="#inscricao">Quero me inscrever</a></div>
+        </div>
+      </section>
+      <section className="dark" id="academia"><p className="gold">ACADEMIA CAA</p><h2>Aprenda. Desenvolva. Multiplique.</h2><div className="grid"><article><b>01</b><h3>Cursos relevantes</h3><p>Conteúdo desenvolvido para aplicação prática.</p></article><article><b>02</b><h3>Experiência digital</h3><p>Inscrição, pagamento e materiais em um só ambiente.</p></article><article><b>03</b><h3>Jornada do aluno</h3><p>Cursos adquiridos, materiais, avisos e certificados.</p></article></div></section>
+      <section className="section" id="inscricao"><p className="gold">MATRÍCULA</p><h2>Garanta sua participação.</h2><p>O checkout terá cadastro do aluno, pagamento por PIX e confirmação da matrícula.</p><div className="notice"><b>Ambiente em preparação</b><span>Nenhuma cobrança é realizada nesta versão de apresentação.</span></div></section>
+      <section className="student" id="aluno"><p className="gold">ÁREA DO ALUNO</p><h2>Seu aprendizado em um só lugar.</h2><p>Login individual para acessar cursos, materiais complementares, comunicados e certificados.</p></section>
+      <footer><b>ACADEMIA CAA</b><span>Formação para Transformar Nações</span><small>© 2026 Academia CAA. Todos os direitos reservados.</small></footer>
+    </main>
+  );
+}
